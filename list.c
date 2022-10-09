@@ -7,7 +7,7 @@ void list_init(list* l){
     return;
 }
 
-int length(list l){    //gives the length of a list
+int length(list l){    
     int len = 0;
     node *p = l.head;
 
