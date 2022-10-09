@@ -6,7 +6,7 @@ void list_init(list* l){
     l -> dec = 0;
     return;
 }
-
+//this is list.c file 
 int length(list l){    
     int len = 0;
     node *p = l.head;
